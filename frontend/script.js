@@ -17,7 +17,7 @@ function predict() {
         CHEST_PAIN: Number(chest_pain.value)
 };
 
-    fetch("http://127.0.0.1:8000/predict", {
+    fetch("https://lung-cancer-prediction-mjgd.onrender.com/predict", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
